@@ -4,7 +4,7 @@ This repository contains completed and polished web development projects created
 All projects inside are properly structured and intended for educational, demonstration, and portfolio purposes.
 
 ## 📸 Projects
-Love Latte
+### -Love Latte-
 A responsive café website built with Next.js and Tailwind CSS.
 [Live Site](https://portfolio-fawn-alpha-60.vercel.app/)
 
