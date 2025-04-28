@@ -1,4 +1,4 @@
-# Classic Café Website
+# Café Website(script layout)
 A responsive demo website for a fictional café.
 Built with Next.js, Tailwind CSS, and designed for both desktop and mobile users.
 
@@ -30,14 +30,14 @@ Fully responsive layout (adjusts perfectly across devices).
 
 ## 📂 Installation
 ```bash
-git clone here
-cd here
+git clone https://github.com/rikuto-mikado/portfolio.git
+cd portfolio/love_latte
 npm install
 npm run dev
 ```
 
 ## ✨ Demo
-[Live Site](here)
+[Live Site](https://portfolio-fawn-alpha-60.vercel.app/)
 
 ## 👤 Author
 rikuto-mikado
