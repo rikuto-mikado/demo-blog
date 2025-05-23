@@ -10,7 +10,7 @@ CSS
 JavaScript
 
 ## ✨ Demo
-[Live Site](https://myblog-pi-flame.vercel.app/)
+[Live Site](https://portfolio-xdrv.vercel.app/)
 
 ## 👤 Author
 rikuto-mikado
