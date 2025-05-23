@@ -200,39 +200,60 @@
                             </div>
                         </div>
                     </div>
-                </section>
-
-        <section class = 'contact' id="contact">
-
-            <div class = 'contact-container'>
-                <div class = 'contact-text'>
-                    <h2 style="text-align: center; margin-bottom: 2rem;">CONTACT</h2>
-                </div>
-                <div class = 'contact-form'>
-
-                    <form>
-                        <div class="row">
-                            <label for="exampleFormControlInput1" class="form-label">Your name</label>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="First name">
-                            </div>
-                            <div class="col">
-                                <input type="text" class="form-control" placeholder="Last name">
-                            </div>
-                        </div>
-                    </form>
-
-                    <div class="mb-3">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Text</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div>
-                </div>
-            </div>
         </section>
+
+        <section class="contact" id="contact">
+            <div class="contact-container">
+                <div class="contact-text">
+                    <h2 style="text-align:center; margin-bottom:2rem;">CONTACT</h2>
+                </div>
+                
+                <form action="https://formspree.io/f/mvgandqo"
+                method="POST"
+                class="contact-form d-flex flex-column gap-3">
+                
+                <div class="row">
+                    <label class="form-label">Your name</label>
+                    <div class="col">
+                        <input type="text"
+                        class="form-control"
+                        name="first"
+                        placeholder="First name"
+                        required>
+                    </div>
+                    <div class="col">
+                        <input type="text"
+                        class="form-control"
+                        name="last"
+                        placeholder="Last name"
+                        required>
+                    </div>
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label">Email address</label>
+                    <input type="email"
+                    class="form-control"
+                    name="email"
+                    placeholder="name@example.com"
+                    required>
+                </div>
+                
+                <div class="mb-3 flex-grow-1">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-control h-100"
+                    name="message"
+                    rows="3"
+                    required></textarea>
+                </div>
+                
+                <div class="mt-auto text-center">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+                </form>
+            </div>
+    </section>
+
 
         <footer>
             <div class = 'footer-text'>
